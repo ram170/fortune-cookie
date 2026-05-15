@@ -13,7 +13,7 @@ function App() {
     setOpened(false);
 
     try {
-      const response = await fetch("http://localhost:8000/fortune");
+      const response = await fetch("/api/fortune");
       const data = await response.json();
 
       setFortune(data.fortune);
