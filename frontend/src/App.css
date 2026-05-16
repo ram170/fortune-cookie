@@ -143,6 +143,15 @@ body {
     );
 }
 
+.fortune-paper {
+  font-family: "Caveat", cursive;
+  font-size: 26px;
+  color: #3b2f2f;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  text-shadow: 0.5px 0.5px 0 rgba(0,0,0,0.08);
+}
+
 .fortune-paper span {
   position: relative;
   z-index: 5;
