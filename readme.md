@@ -323,3 +323,10 @@ Key concepts explored during this project:
 * AWS infrastructure basics
 * Linux server administration
 * Frontend + backend deployment workflows
+
+
+# NGINX stale build fix
+```
+sudo rm -rf /usr/share/nginx/html/*
+sudo cp -r dist/* /usr/share/nginx/html/
+```
