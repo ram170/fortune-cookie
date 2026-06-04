@@ -1,0 +1,14 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: fortune-backend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: fortune-frontend
+    ports:
+      - "3000:80"

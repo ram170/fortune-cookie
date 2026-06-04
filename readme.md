@@ -115,7 +115,7 @@ http://localhost:5173
 FastAPI uses CORS middleware during local development:
 
 ```python
-allow_origins=["http://localhost:5173"]
+allow_origins=["http://localhost:5173", "http://localhost:3000"]
 ```
 
 This allows the React frontend to communicate with the backend from a different origin during development.
